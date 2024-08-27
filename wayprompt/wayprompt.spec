@@ -47,5 +47,5 @@ git clone --recurse-submodules --depth 1 %{url} .
 %doc README.md
 
 %changelog
-* Tue Aug 27 2024 Bastien Riviere <me@babariviere.com> - 0.1.2-1
+* Tue Aug 27 2024 Bastien Riviere <me@babariviere.com> - 0.1.2-0
 - Update to 0.1.2
