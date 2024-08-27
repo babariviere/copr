@@ -1,6 +1,6 @@
 Name:           wayprompt
 # renovate: datasource=git-tags packageName=https://git.sr.ht/~leon_plickat/wayprompt versioning=semver
-Version:        0.1.0
+Version:        0.1.2
 Release:        0
 Summary:        Multi-purpose prompt tool for Wayland
 License:        GPL-3.0-only
