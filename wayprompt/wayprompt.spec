@@ -6,7 +6,8 @@ Summary:        Multi-purpose prompt tool for Wayland
 License:        GPL-3.0-only
 URL:            https://git.sr.ht/~leon_plickat/wayprompt
 
-BuildRequires:  git
+Source0:        https://git.sr.ht/~leon_plickat/wayprompt/archive/v%{version}.tar.gz
+
 BuildRequires:  scdoc
 BuildRequires:  zig = 0.11.0
 BuildRequires:  zig-rpm-macros = 0.11.0
@@ -24,10 +25,6 @@ BuildRequires:  gcc
 Provides:       pinentry-wayprompt = %{version}
 
 %description
-
-%prep
-rm -rf * .*
-git clone --recurse-submodules --depth 1 %{url} .
 
 %build
 %zig_build -Dpie
