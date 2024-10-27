@@ -9,8 +9,8 @@ URL:            https://git.sr.ht/~leon_plickat/wayprompt
 Source0:        https://git.sr.ht/~leon_plickat/wayprompt/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:  scdoc
-BuildRequires:  zig = 0.11.0
-BuildRequires:  zig-rpm-macros = 0.11.0
+BuildRequires:  zig = 0.13.0
+BuildRequires:  zig-rpm-macros = 0.13.0
 BuildRequires:  zstd
 BuildRequires:  pkgconfig(fcft)
 BuildRequires:  pkgconfig(pixman-1)
