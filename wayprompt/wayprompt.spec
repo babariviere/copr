@@ -47,5 +47,3 @@ Provides:       pinentry-wayprompt = %{version}
 %doc README.md
 
 %changelog
-* Tue Aug 27 2024 Bastien Riviere <me@babariviere.com> - 0.1.2-0
-- Update to 0.1.2
